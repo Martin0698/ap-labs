@@ -12,21 +12,30 @@ This is the first challenge in your Advanced Programming Class.
 Build Requirements
 ------------------
 ```
-# Build Requirements here
+# Format of input:
+((1 (s))) output 2
+(1 2 3) output 3 
+
+Language: Scheme
+
 ```
 
 
 How to build
 ------------
 ```
-# instructions here
+# I use two functions native of scheme:
+car: return the top of the array
+cdr: return the complement of the top
+after this we made a loop in order to see the array.
 ```
 
 
 How to Run
 ----------
 ```
-# instructions here
+# Download  chez Scheme, copy the code
+and call the function in order to prove it
 ```
 
 

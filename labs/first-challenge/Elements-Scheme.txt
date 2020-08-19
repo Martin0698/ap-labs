@@ -1,0 +1,23 @@
+(define (length lista)
+
+      (cond
+
+          [(and (not (null? lista))) (
+
+              cond 
+
+              [(list? (car lista)) (+ (length
+
+ (car lista)) (length (cdr lista)))]
+
+              [#t (+ 1 (length (cdr lista)))]
+
+ 
+
+          )]
+
+          [#t 0]
+
+      )
+
+  )
