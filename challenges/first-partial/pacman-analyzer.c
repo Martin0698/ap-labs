@@ -225,8 +225,8 @@ void analizeLog(char *logFile, char *report) {
 
 int main(int argc, char **argv) {
 
-    if (argc < 5 || strcmp(argv[1],"-input") != 0 || strcmp(argv[3],"-report") != 0) {
-        printf("Usage:./pacman-analizer.o -input <input_file.txt> -report <report_file.txt>\n");
+    if (argc != 5 || strcmp(argv[1],"-input") != 0 || strcmp(argv[3],"-report") != 0) {
+        printf("Use: ./pacman-analizer.o -input input_file.txt -report report_file.txt\n");
         return 1;
     }
     analizeLog(argv[2],argv[4]);
